@@ -1,3 +1,5 @@
+package list;
+
 public interface MyList <E> extends Iterable<E> {
     boolean isEmpty();
     void add(E el);
